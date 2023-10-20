@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2 id="head">SIGN UP</h2>
+        <form id="user-info-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="github">GitHub Link:</label>
+            <input type="text" id="github" name="github" required>
+            
+            <label for="linkedin">LinkedIn Link:</label>
+            <input type="text" id="linkedin" name="linkedin" required>
+            
+            <button type="button" onclick="saveUserInfo()">Save</button>
+        </form>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
